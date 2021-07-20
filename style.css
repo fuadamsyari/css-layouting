@@ -1,0 +1,147 @@
+
+
+body {
+    margin: 0px;
+    background-image: url(img/geometrick.png);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.nav {
+    background-color: #88ff59;
+    position: fixed;
+    right: 0px;
+    left: 0px;
+    bottom: 600px;
+    top: 0px;
+    z-index: 999;
+}
+
+
+
+.container {
+    width: 800px;
+    margin: 0 auto;
+    background-color: #e9e9e9;
+    padding-top: 55px;
+}
+
+.header {
+    position: relative;
+}
+
+.header img {
+    position: absolute;
+    width: 90px;
+    height: 90px;
+    background-repeat: no-repeat;
+    right: 0px;
+    left: 640px;
+    bottom: 0px;
+    top: 0px;
+
+
+}
+
+.header h1  {
+    font-size: 40px;
+    margin: 10px;
+}
+
+.header .navabar {
+    display: inline-block;
+    
+}
+
+.header .navabar a {
+    text-decoration: none;
+    margin-right: 30px;
+    color: salmon;
+    padding: 2px;
+}
+.header a:hover {
+    text-decoration: none;
+    background-color: cyan;
+}
+
+.hero   {
+    background-image: url(img/uhkti.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 0px -200px;
+    width: 800px;
+    height: 300px;
+    border-top: solid cyan 3px;
+    border-bottom: solid salmon 3px;
+}
+
+.konten .main   {
+    padding: 10px;
+    width: 400px;
+    float: left;
+}
+
+.konten .creator img {
+    width: 90px;
+    height: 90px;
+    float: left;
+    margin: 20px;
+}
+
+.konten .creator {
+    float: right;
+    width: 300px;
+    padding: 10px;
+}
+
+
+.footer {
+    background-color: black;
+    height: 90px;
+    width: 800px;
+    position: absolute;
+
+}
+
+.footer p {
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* clear */
+.cf:before,
+.cf:after {
+    content: " "; /* 1 */
+    display: table; /* 2 */
+}
+
+.cf:after {
+    clear: both;
+}
+
+/**
+ * For IE 6/7 only
+ * Include this rule to trigger hasLayout and contain floats.
+ */
+.cf {
+    *zoom: 1;
+}
